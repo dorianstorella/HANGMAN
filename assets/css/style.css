@@ -1,1 +1,20 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#24aaf8), to(#26e015));
+  background: linear-gradient(#24aaf8, #26e015);
+  line-height: 15em;
+  height: 15em;
+  border: none;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.hidden {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
