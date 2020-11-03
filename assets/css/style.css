@@ -14,7 +14,10 @@ h1 {
   vertical-align: bottom;
 }
 
-.hidden {
-  color: black;
+#choices li, #answer li {
+  display: inline-block;
+  margin: 0.6em;
+  border: 2px solid black;
+  padding: 1em;
 }
 /*# sourceMappingURL=style.css.map */
