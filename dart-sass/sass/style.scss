@@ -1,0 +1,37 @@
+header {
+    background: linear-gradient(#24aaf8, #26e015);
+    line-height: 15em;
+    height: 15em;    
+    border: none;
+    text-align: center;
+   
+}
+
+img {
+    width: 10em;
+}
+h1 {
+    color: black;
+    line-height: 1;
+    display: inline-block;
+    vertical-align: bottom;       
+}
+#choices li , #answer li {
+    display:inline-block;
+    margin:0.6em;
+    border: 2px solid black;
+    padding:1em;    
+}
+#choices , #answer{
+    flex-grow: 1;
+}
+#score {
+    height:20vh;
+    width: 40vw;
+}
+.disabled {
+    opacity: .3;
+}
+
+
+

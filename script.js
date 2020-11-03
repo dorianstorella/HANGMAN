@@ -12,7 +12,7 @@ const displayChoices = (choicesMapping) => {
 
 const displayScore = () => {
     // els.score.innerHTML = `${scoreCount} / ${maxScore}`;
-    els.score.innerHTML = `<img src="assets/image/feu${scoreCount}.png" alt="hangman"/>`;
+    els.score.innerHTML = `<img src="assets/image/hangman-${scoreCount}.png" alt="hangman"/>`;
 };
 
 const displayWord = (wordMapping) => {

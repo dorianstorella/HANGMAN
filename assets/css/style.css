@@ -7,6 +7,10 @@ header {
   text-align: center;
 }
 
+img {
+  width: 10em;
+}
+
 h1 {
   color: black;
   line-height: 1;
@@ -19,5 +23,20 @@ h1 {
   margin: 0.6em;
   border: 2px solid black;
   padding: 1em;
+}
+
+#choices, #answer {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#score {
+  height: 20vh;
+  width: 40vw;
+}
+
+.disabled {
+  opacity: .3;
 }
 /*# sourceMappingURL=style.css.map */
